@@ -1,0 +1,12 @@
+# Python 3.10–3.13（Mac：python3 -m pip install -r requirements.txt）
+streamlit>=1.40,<2
+streamlit-folium>=0.22,<1
+folium>=0.17,<1
+pandas>=2.2,<4
+numpy>=1.26,<3
+scikit-learn>=1.4,<2
+plotly>=5.20,<8
+matplotlib>=3.8,<4      # pandas 表格漸層上色用
+requests>=2.31,<3
+selenium>=4.20,<5       # Google 地圖爬蟲；內建 Selenium Manager 自動下載 chromedriver（需安裝 Google Chrome）
+pytest>=8               # 測試用
